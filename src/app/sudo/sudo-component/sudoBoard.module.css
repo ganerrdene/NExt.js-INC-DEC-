@@ -1,0 +1,17 @@
+.board {
+  background: #000000;
+  padding: 20px;
+  width: 400px;
+  height: auto;
+}
+.boardAction {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.boardBtns {
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
